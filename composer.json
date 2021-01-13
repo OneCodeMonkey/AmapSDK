@@ -1,0 +1,27 @@
+{
+  "name": "onecodemonkey/amap_sdk",
+  "description": "AMap SDK for PHP (高德地图 web API) ",
+  "keywords": [
+    "amap",
+    "gaode_map",
+    "amap_sdk",
+    "gaode_map_sdk",
+    "高德地图"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "OneCodeMonkey",
+      "email": "jujulia09@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "hyperf/guzzle": "~1.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amap\\": "src/"
+    }
+  }
+}
