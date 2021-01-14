@@ -22,6 +22,9 @@ class Test {
      */
     private $clientFactory;
     
+    /**
+     * 搜索周边 POI
+     */
     public function testSearchAround()
     {
         $options = [
